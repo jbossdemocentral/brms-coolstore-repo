@@ -7,6 +7,17 @@
   <version>2.0.0</version>
   <packaging>kjar</packaging>
   <name>coolstore</name>
+  <properties>
+    <version.org.kie>6.4.0.Final-redhat-3</version.org.kie>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <version>${version.org.kie}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
